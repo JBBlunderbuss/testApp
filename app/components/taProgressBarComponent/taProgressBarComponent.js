@@ -5,7 +5,10 @@
         .component('taProgressBar', {
             templateUrl: 'components/taProgressBarComponent/taProgressBarTemplate.html',
             controller: taProgressBarComponent,
-            bindings: {}
+            bindings: {
+                percent: '=',
+                status: '='
+            }
         });
 
     function taProgressBarComponent(){

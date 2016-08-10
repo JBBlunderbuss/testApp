@@ -1,7 +1,9 @@
 
-<div class="taProgressBar">
+<div class="taProgressBar {{'taProgressBar-' + $ctrl.status}}">
     <div class="taProgressBar_bar">
-        <div class="taProgressBar_progress"></div>
+        <div class="taProgressBar_progress" ng-style="{width: $ctrl.percent + '%'}"></div>
     </div>
-    <h4 class="taProgressBar_message">Progress 50%</h4>
+    <h4 class="taProgressBar_message" ng-if="$ctrl.status == 'inProgress'">Progress {{$ctrl.percent | number : 0}}%</h4>
+    <h4 class="taProgressBar_message taProgressBar_message-success" ng-if="$ctrl.status == 'done'">This task is 100% completed <img
+            src="images/tick.png" alt="" class="taProgressBar_message_tick"></h4>
 </div>

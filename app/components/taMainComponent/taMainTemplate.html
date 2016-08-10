@@ -1,4 +1,4 @@
 <div class="taMainComponent">
-    <ta-lightbox></ta-lightbox>
-    {{ $ctrl.title }}
+    <button ng-click="$ctrl.open()">open</button>
+    <ta-lightbox ng-if="$ctrl.showLightbox" close="$ctrl.close"></ta-lightbox>
 </div>
