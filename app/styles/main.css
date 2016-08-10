@@ -1,5 +1,5 @@
-body .container {
-  width: 1100px;
-  margin: 0px auto; }
+.taMainComponent {
+  max-width: 1100px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

@@ -2,8 +2,10 @@
 	"version": 3,
 	"file": "main.css",
 	"sources": [
-		"main.scss"
+		"main.scss",
+		"_helpers.scss",
+		"../components/taMainComponent/taMainComponent.scss"
 	],
-	"mappings": "AAAA,AACE,IADE,CACF,UAAU,CAAC;EACT,KAAK,EAAE,MAAO;EACd,MAAM,EAAE,QAAS,GAClB",
+	"mappings": "AEAA,ADAA,gBCAgB,CDAL;EACT,SAAS,EAAE,MAAO;EAClB,MAAM,EAAE,MAAO,GAChB",
 	"names": []
 }

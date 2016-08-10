@@ -1,6 +1,2 @@
-body {
-  .container {
-    width: 1100px;
-    margin: 0px auto;
-  }
-}
+@import 'helpers';
+@import '../components/taMainComponent/taMainComponent.scss';
