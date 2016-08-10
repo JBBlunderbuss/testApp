@@ -8,13 +8,24 @@ module.exports = function(grunt) {
                 configFile: 'test/karma.conf.js',
                 singleRun: true
             }
+        },
+        sass: {
+            options: {
+                sourceMap: true
+            },
+            dist: {
+                files: {
+                    'app/styles/main.css': 'app/styles/main.scss'
+                }
+            }
         }
 
     });
     grunt.loadNpmTasks('grunt-karma');
+    grunt.loadNpmTasks('grunt-sass');
 
 
     grunt.registerTask('test', ['karma']);
-    grunt.registerTask('default', ['test']);
+    grunt.registerTask('default', ['test', 'sass']);
 
 };
