@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "angular": "^1.5.8",
-    "angular-mocks": "^1.5.8"
+    "angular-mocks": "^1.5.8",
+    "normalize-css": "^4.2.0"
   }
 }
