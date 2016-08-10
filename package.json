@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "grunt test",
-    "start" : "grunt"
+    "start": "grunt"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
     "grunt-karma": "^2.0.0",
     "grunt-sass": "^1.2.0",
     "jasmine-core": "^2.4.1",

@@ -6,6 +6,7 @@ A tech test for Westpac
 - Grunt Build system
 - karma as a test runner
 - Sass as a css preprocessor
+- Watch for file changes
 - Angular 1.5 using component syntax ready for upgrading to angular 2 when they become a bit more stable
 - http-server to serve the system
 - Lightbox
