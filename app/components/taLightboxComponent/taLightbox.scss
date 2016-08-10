@@ -1,0 +1,94 @@
+.taLightbox {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.taLightbox_bg {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0, .2);
+}
+
+.taLightbox_container {
+  position: absolute;
+  width: 300px;
+  border: 1px solid #dddddd;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.taLightbox_title {
+  background: #808080;
+  color: #dddddd;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  min-height: 32px;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.taLightbox_close {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  border: 0px;
+  width: 22px;
+  height: 22px;
+  background: url('../images/close-back.png');
+  cursor: pointer;
+  outline: none;
+}
+
+.taLightbox_content {
+  min-height: 90px;
+  background: white;
+}
+
+.taProgressBar {
+  padding: 20px 0;
+
+}
+
+.taProgressBar_bar {
+  border: 1px solid #dddddd;
+  height: 14px;
+  width: 153px;
+  margin: 0 auto;
+}
+
+%progress {
+  background: #7fc9ff; /* Old browsers */
+  background: -moz-linear-gradient(top, #7fc9ff 0%, #4c7999 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7fc9ff 0%,#4c7999 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7fc9ff 0%,#4c7999 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fc9ff', endColorstr='#4c7999',GradientType=0 ); /* IE6-9 */
+}
+
+%progress-success {
+  background: #7fc900; /* Old browsers */
+  background: -moz-linear-gradient(top, #7fc900 0%, #4d7a00 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7fc900 0%, #4d7a00 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7fc900 0%, #4d7a00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7fc900', endColorstr='#4d7a00', GradientType=0); /* IE6-9 */
+}
+
+.taProgressBar_progress {
+  @extend %progress-success;
+
+  height: 100%;
+  width: 30%;
+
+}
+
+.taProgressBar_message {
+  font-size: 14px;
+  color: #808080;
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 400;
+}
