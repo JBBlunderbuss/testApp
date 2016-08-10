@@ -7,6 +7,7 @@ A tech test for Westpac
 - karma as a test runner
 - Sass as a css preprocessor
 - Watch for file changes
+- Bower for vendor scripts
 - Angular 1.5 using component syntax ready for upgrading to angular 2 when they become a bit more stable
 - http-server to serve the system
 - Lightbox
@@ -18,6 +19,13 @@ A tech test for Westpac
 - protractor to run end to end tests
 - aria for accessibility
 
+## Requirements
+- npm 
+- bower
+- grunt-cli
+
 ## Installation
+
+1. `npm install`
 
 ## How to use 
