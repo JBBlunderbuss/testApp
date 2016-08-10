@@ -1,6 +1,7 @@
 # Test
 
-A tech test for ******
+A tech test for ****** you can see a [live site here](http://three-effect.surge.sh/)
+
 
 ## MVP Features
 - Grunt Build system
@@ -13,6 +14,7 @@ A tech test for ******
 - Lightbox
 
 ## MMP Features
+- More unit tests for the components
 - minified and concatenated files served from a dist folder
 - Angular Router 
 - express to serve the json and front end site
