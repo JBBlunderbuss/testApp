@@ -3,7 +3,7 @@
 (function(){
     angular.module('testApp')
         .component('taMainComponent', {
-            templateUrl: 'components/taMainComponent/taMainComponent.html',
+            templateUrl: 'components/taMainComponent/taMainTemplate.html',
             controller: taMainComponent
         });
 
