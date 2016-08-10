@@ -29,3 +29,6 @@ A tech test for Westpac
 1. `npm install`
 
 ## How to use 
+
+- `npm test`
+- `npm start`
