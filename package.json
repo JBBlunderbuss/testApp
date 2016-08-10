@@ -1,7 +1,7 @@
 {
   "name": "test-west",
   "version": "0.0.1",
-  "description": "tech test for westpac",
+  "description": "tech test for *******",
   "main": "index.js",
   "scripts": {
     "test": "grunt test",
