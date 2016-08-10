@@ -11,7 +11,7 @@ A tech test for Westpac
 - Lightbox
 
 ## MMP Features
-- minified and concatenated files
+- minified and concatenated files served from a dist folder
 - Angular Router 
 - express to serve the json and front end site
 - protractor to run end to end tests
