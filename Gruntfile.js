@@ -20,13 +20,6 @@ module.exports = function(grunt) {
             }
         },
         watch: {
-            //scripts: {
-            //    files: ['**/*.js'],
-            //    tasks: ['jshint'],
-            //    options: {
-            //        spawn: false
-            //    }
-            //},
             styles: {
                 files: ['**/*.scss'],
                 tasks: ['sass'],
@@ -34,15 +27,25 @@ module.exports = function(grunt) {
                     spawn: false
                 }
             }
+        },
+        connect: {
+            server: {
+                options: {
+                    port: 9001,
+                    base: 'app'
+                }
+            }
         }
+
     });
 
     grunt.loadNpmTasks('grunt-karma');
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-connect');
 
 
     grunt.registerTask('test', ['karma']);
-    grunt.registerTask('default', ['watch']);
+    grunt.registerTask('default', ['connect', 'watch' ]);
 
 };

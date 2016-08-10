@@ -9,7 +9,7 @@ A tech test for Westpac
 - Watch for file changes
 - Bower for vendor scripts
 - Angular 1.5 using component syntax ready for upgrading to angular 2 when they become a bit more stable
-- http-server to serve the system
+- grunt-connect to serve html
 - Lightbox
 
 ## MMP Features
@@ -32,3 +32,4 @@ A tech test for Westpac
 
 - `npm test`
 - `npm start`
+- `open http://localhost:9001`
