@@ -8,7 +8,10 @@ module.exports = function(config) {
       'jasmine'
     ],
     files: [
-      'app/scripts/**/*.js',
+      'app/vendor/angular/angular.js',
+      'app/vendor/angular-mocks/angular-mocks.js',
+      'app/app.js',
+      'app/components/**/*.js',
       'test/spec/**/*.js'
     ],
     exclude: [
