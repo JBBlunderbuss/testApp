@@ -1,7 +1,10 @@
 .taLightbox {
-  position: relative;
+  position: absolute;
   width: 100vw;
   height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .taLightbox_bg {
@@ -24,7 +27,7 @@
 .taLightbox_title {
   background: #808080;
   color: #dddddd;
-  font-size: 16px;
+  font-size: 17px;
   border-bottom: 1px solid #ddd;
   min-height: 32px;
   padding: 10px;
